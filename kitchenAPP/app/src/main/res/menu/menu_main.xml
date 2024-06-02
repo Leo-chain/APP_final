@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="首頁" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search"
+        android:title="搜索" />
+    <item
+        android:id="@+id/nav_recommend"
+        android:icon="@drawable/ic_recommend"
+        android:title="推薦食譜" />
+    <item
+        android:id="@+id/nav_detail"
+        android:icon="@drawable/ic_detail"
+        android:title="詳細內容" />
+    <item
+        android:id="@+id/nav_comment"
+        android:icon="@drawable/ic_comment"
+        android:title="評論區" />
+</menu>

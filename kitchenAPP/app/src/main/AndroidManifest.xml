@@ -10,6 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenAPP">
         <activity
+            android:name=".activity_comment"
+            android:exported="false" />
+        <activity
+            android:name=".activity_detail"
+            android:exported="false" />
+        <activity
+            android:name=".activity_recommend"
+            android:exported="false" />
+        <activity
+            android:name=".activity_search"
+            android:exported="false" />
+        <activity
+            android:name=".activity_home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:theme="@style/Theme.KitchenAPP" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
